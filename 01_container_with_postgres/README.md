@@ -38,6 +38,8 @@ The table ```produts``` contains the following structure
 
 ### Test the database making INSERT and SELECT METHODS
 
+Install python dependecies with ```pip install -r requirements.txt``` or use a virtual enviroment.
+
 > Before running the scripts bellow you first you need to configurate the ```database.ini``` file with the host, port, database, user and password.
 
 To INSERT do:
