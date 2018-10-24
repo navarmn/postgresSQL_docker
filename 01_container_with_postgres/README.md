@@ -1,3 +1,5 @@
+Using the a container with only the database
+======
 
 This part explains how to create a **container** with PostgreSQL version 10 to communicate your application with it.
 
@@ -13,7 +15,7 @@ docker run --name postgres_db -e POSTGRES_PASSWORD=bjjarmbar -p 6969:5432 -d pos
 psql -h localhost -p 6969 -U postgres
 ```
 
-Or, thinking about scalability, you can bring up the service using the ```docker-compose.yml``` by doing:
+Or, thinking about scalability,b you can bring up the service using the ```docker-compose.yml``` by doing:
 
 ``` shell
 docker-compose up 
