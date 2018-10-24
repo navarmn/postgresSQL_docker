@@ -1,4 +1,4 @@
-Using the a container with only the database
+Using a database isolated in a container
 ======
 
 This part explains how to create a **container** with PostgreSQL version 10 to communicate your application with it.
@@ -24,7 +24,7 @@ psql -h localhost -p 6969 -U postgres
 
 You can also use the ```-d``` parameter in docker-compose to make it work in detached mode.
 
-See full configuration for using PostgreSQL and Docker in [here](https://docs.docker.com/samples/library/postgres/#connect-to-it-from-an-application)
+See full configuration for using PostgreSQL and Docker in [here](https://docs.docker.com/samples/library/postgres/#connect-to-it-from-an-application).
 
 
 ### Create the data base and the table
