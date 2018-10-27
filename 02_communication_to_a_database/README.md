@@ -26,7 +26,7 @@ And, done! Your applications is up and running. You can use ```docker ps``` and 
 
 ### What does the app do?
 
-It is a dumb app. It just reads the database each 10 seconds and update the table if necessary.
+It is a dumb app. It just reads the database each 10 seconds, look for new entries, generate a QR-code using a #hash key and stores on you local folder under *qr_images*. See the ```.yml``` file for details.
 
 
 
