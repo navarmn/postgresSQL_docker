@@ -20,7 +20,9 @@ The trick here is to set the container to use the machine IP by passing during `
 docker run -d --net host app_to_db 
 ```
 
-And, done! Your applications is up and running. You can use ```docker ps``` on terminal to see this container.
+or, use ```docker-compose up``` that everything goes up with a single shot :). See how beautiful is docker?!
+
+And, done! Your applications is up and running. You can use ```docker ps``` and ```docker-compose ps``` on terminal to see this container.
 
 ### What does the app do?
 
