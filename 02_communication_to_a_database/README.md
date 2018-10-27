@@ -22,7 +22,7 @@ docker run -d --net host app_to_db
 
 And, done! Your applications is up and running. You can use ```docker ps``` on terminal to see this container.
 
-### What the app does?
+### What does the app do?
 
 It is a dumb app. It just reads the database each 10 seconds and update the table if necessary.
 
