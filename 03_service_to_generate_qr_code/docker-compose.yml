@@ -10,10 +10,9 @@ services:
     environment:
       POSTGRES_PASSWORD: bjjarmbar
   app:
-    image: gliderlabs/alpine:3.3
+    image: python:3.6-slim
     build: .
     depends_on:
       - db
     container_name: app
-    restart: always
     

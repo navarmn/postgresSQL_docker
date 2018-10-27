@@ -1,2 +1,4 @@
 01_container_with_postgres/.env/
 01_container_with_postgres/__pycache__/
+
+postgres_docker.code-workspace

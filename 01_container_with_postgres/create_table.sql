@@ -3,7 +3,8 @@ CREATE TABLE products (
     company VARCHAR(50),
     city VARCHAR(50), 
     uf VARCHAR(2),
-    product_name VARCHAR(50)
+    product_name VARCHAR(50),
+    qr_code_dir VARCHAR(50)
     );
 
 
